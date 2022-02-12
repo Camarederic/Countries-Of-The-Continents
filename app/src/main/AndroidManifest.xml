@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.camarederic.countriesofthecontinents">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CountriesOfTheContinents">
+        <activity
+            android:name=".activities.AntarcticaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AustraliaOceaniaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AsiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SouthAmericaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.NorthAmericaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AfricaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EuropeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/MyTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
