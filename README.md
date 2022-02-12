@@ -1,3 +1,3 @@
 # Countries-Of-The-Continents
 
-![Screenshot_1](https://user-images.githubusercontent.com/96263634/153721777-fdeb4f9b-e2b0-4255-9307-08d23107b22e.jpg)
+![Screenshot_1](https://user-images.githubusercontent.com/96263634/153721959-f5d390f6-9813-442f-bd04-246861c57b14.jpg)
